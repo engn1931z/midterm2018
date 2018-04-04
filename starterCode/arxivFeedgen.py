@@ -1,7 +1,7 @@
 import os
 from feedgen.feed import FeedGenerator
 
-exampleArticlesList=[{'abstract':'Cracked Pots Lecture','authors':'J. Carberry','articleID':'1801.99999','title':'Pyschoceramics','url':'https://arxiv.org/abs/1801.99999'}]
+exampleArticlesList=[{'abstract':'Cracked Pots Lecture','authors':'J. Carberry','articleId':'1801.99999','title':'Pyschoceramics','url':'https://arxiv.org/abs/1801.99999'}]
 exampleDirectory='public_files'
 def generateRss(articlesList=exampleArticlesList,directoryPath='public_files',baseUrl='https://engn1931z99.pythonanywhere.com/'): 
 
