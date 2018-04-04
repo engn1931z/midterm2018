@@ -5,7 +5,7 @@ import feedparser
 def parseRss(url='https://arxiv.org/rss/physics.optics'):
   """ RSS Feed URL -> list of dictionaries for first five articles
   
-  This function returns a list of dictionaries with the keys 'abstract', 'authors', 'title', and 'url'
+  This function returns a list of dictionaries with the keys 'abstract', 'articleID', 'authors', 'title', and 'url'
   for the first five articles on the specified arXiv RSS Feed url.
   
   The values for each of the five keys must be strings.
