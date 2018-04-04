@@ -2,7 +2,7 @@ import os
 from gtts import gTTS
 from wordcloud import WordCloud
 
-exampleArticlesList=[{'abstract':'Cracked Pots Lecture','authors':'J. Carberry','articleID':'1801.99999','title':'Pyschoceramics','url':'https://arxiv.org/abs/1801.99999'}]
+exampleArticlesList=[{'abstract':'Cracked Pots Lecture','authors':'J. Carberry','articleId':'1801.99999','title':'Pyschoceramics','url':'https://arxiv.org/abs/1801.99999'}]
 exampleDirectory='public_files'
 def createAudioFiles(articlesList=exampleArticlesList, directoryPath=exampleDirectory):
   """  list of article dictionaries -> 
