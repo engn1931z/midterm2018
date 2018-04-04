@@ -106,4 +106,4 @@ After testing and scheduling, your podcast feed should update by itself, and in 
 
 # Good Luck!
 
-![PodCast](https://github.com/engn1931z/draft/blob/master/podcast.JPG?raw=true =200x)
+<img src="https://github.com/engn1931z/draft/blob/master/podcast.JPG?raw=true" alt="Podcast" width="200">
