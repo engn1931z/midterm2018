@@ -33,7 +33,7 @@ We will need to parse relevant information from the arXiv news feed. Select one 
 Please complete the `parseRss()` function in the `arxivParser.py` starter file. This function takes as its sole argument a URL (e.g., `http://arxiv.org/rss/physics.optics`) and should return a list of dictionaries (one for each of the first five articles) with the following five keys: 
 
 * abstract: A string containing the article abstract in plaintext **without any html formatting** (e.g., `In 1936, Albert Einstein wrote a brief article where he suggested the possibility that a massive object acted as a lens...`
-* articleID: A string containing the article's arXiv id number (e.g., `1801.00001`)
+* articleId: A string containing the article's arXiv id number (e.g., `1801.00001`)
 * authors: A string containing comma separated authors names in plaintext (e.g., `Jane Smith, J. J. Doe, J. Carberry`)
 * title: A string containing the article title in plaintext (e.g., `Studies of Fireflies in Space`)
 * url: A string containing the article's abstract URL (e.g., `http://arxiv.org/abs/1803.00001`)
